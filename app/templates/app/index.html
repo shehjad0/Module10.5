@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Add</h1>
+    <h2>{{ number | add:"2" }}</h2>
+    <h1>Add Slashes</h1>
+    <h2>{{ string | addslashes }}</h2>
+    <h1>Cap First</h1>
+    <h2>{{ string | capfirst }}</h2>
+    <h1>Center</h1>
+    <h2>{{ string | center:"15" }}</h2>
+    <h1>Cut</h1>
+    <h2>{{ string | cut:" " }}</h2>
+    <h1>Date</h1>
+    <h2>{{ time | date:"D d M Y" }}</h2>
+    <h1>Default</h1>
+    <h2>{{ empty_string | default:"nothing" }}</h2>
+    <h1>Dictsort</h1>
+    <h2>{{ list | dictsort:"name" }}</h2>
+    <h1>Divisibleby</h1>
+    <h2>{{ number | divisibleby:"3" }}</h2>
+    <h1>File Size Format</h1>
+    <h2>{{ large_number | filesizeformat }}</h2>
+    <h1>Join</h1>
+    <h2>{{ another_list | join:" // " }}</h2>
+    <h1>First</h1>
+    <h2>{{ another_list | first }}</h2>
+    <h1>Last</h1>
+    <h2>{{ another_list | last }}</h2>
+    <h1>Length</h1>
+    <h2>{{ another_list | length }}</h2>
+    <h1>Line Numbers</h1>
+    <h2>{{ multilinestext | linenumbers }}</h2>
+    <h1>Lower</h1>
+    <h2>{{ another_string | lower }}</h2>
+    <h1>Make List</h1>
+    <h2>{{ another_string | make_list }}</h2>
+    <h1>Random</h1>
+    <h2>{{ another_list | random }}</h2>
+    <h1>Slice</h1>
+    <h2>{{ another_list | slice:":2" }}</h2>
+    <h1>Slugify</h1>
+    <h2>{{ another_string | slugify }}</h2>
+    <h1>Time</h1>
+    <h2>{{ time | time:"H:i" }}</h2>
+    <h1>Title</h1>
+    <h2>{{ another_string | title }}</h2>
+    <h1>Upper</h1>
+    <h2>{{ another_string | upper }}</h2>
+    <h1>Wordcount</h1>
+    <h2>{{ another_string | wordcount }}</h2>
+</body>
+</html>
